@@ -1,0 +1,347 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>SimTel Fourier synthesis analysis</title>
+
+<link rel="stylesheet" type="text/css" href="../simstyle.css">
+
+</head>
+
+
+</head>
+<body bgcolor="#FFFFFF" alink = blue vlink = blue >
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="96%" id="AutoNumber2" bgcolor="#0000FF">
+  <tr>
+    <td width="100%">
+    <p align="center">
+<span lang="en-us"><font color="#FFFFFF"><span style="font-size: 20pt"><b>
+Frequency Division Multiplexing</b></span></font></span></td>
+  </tr>
+</table>
+
+  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="96%" id="AutoNumber3" height="69">
+    <tr>
+      <td width="50%" height="1">
+      <p align="left"><span style="font-size: 13pt" lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;
+      </span>
+<b>
+      <span style="font-size: 13pt">&nbsp;<span lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </span></span><span style="font-size: 13pt" lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#p01">F.D.M. </a></span></b></td>
+      <td width="50%" height="1" align="justify"><font color="#0000FF" style="font-size: 13pt">
+<b>
+      <span lang="en-us">&nbsp;&nbsp;&nbsp; </span></b>
+      <span lang="en-us">&nbsp;<b class="BarPagTitle" id="PageTit0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>&nbsp;<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b></span></font>
+      <a href="#sawtooth"><span style="font-size: 13pt" lang="en-us"><b>FDM 
+      Transmitter &amp; Receiver</b></span></a></td>
+    </tr>
+    <tr>
+      <td width="50%" height="20">
+<b>
+      <span style="font-size: 13pt" lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+<a href="#square"><span style="font-size: 13pt" lang="en-us">Double Modulation</span></a><span style="font-size: 13pt"><font color="#0000FF"></a></font></span><span style="font-size: 13pt" lang="en-us">&nbsp;&nbsp; </span></b></td>
+      <td width="50%" height="20" align="justify">
+      <span style="font-size: 13pt" lang="en-us"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#rect">Compandor</a></b></span></td>
+    </tr>
+    </table>
+  <p align="center">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+  <a href= "#top">
+  <img border="0" src="../../../../images/top.GIF" align="left" width="68" height="32"></a></font></p>
+  <p align="center">
+  <a name="p01"><span lang="en-us"><font color="#008000">
+  <span style="font-weight: 700; font-size: 20pt">Frequency Division 
+  Multiplexing</span></font></span></a></p>
+  <p>
+    <b class="BarPagTitle" id="PageTit">      <span lang="en-us">
+  <b>
+    &nbsp;Frequency Division Multiplexing (FDM)</b></span></b></p>
+  <p>
+  The frequency division systems can be divided
+      into 2 categories:&nbsp;</p>
+  <p>
+  <b><span lang="en-us">&nbsp;</span>SINGLE CHANNEL SYSTEMS</b></p>
+  <p>
+  <b>MULTI CHANNEL SYSTEMS</b></p>
+    <p style="margin-top: 0; margin-bottom: 0">In the first category each 
+    channel terminal contains all the electronic devices (oscillators, filters, 
+    etc.); while in the second many devices are 
+    common to more than one channel.<span lang="en-us"> </span> </p>
+    <p style="margin-top: 0; margin-bottom: 0">In the following we will describe 
+    the multi channel systems, because they are more important respect to the single channel systems.<p style="margin-top: 0; margin-bottom: 0">The frequency allocation of the phone channels follows the CCITT (European)
+      standard.&nbsp;<br>
+      Other allocations are also possible (American standards).<p style="margin-top: 0; margin-bottom: 0">&nbsp;<p style="margin-top: 0; margin-bottom: 0"><b>
+MULTI CHANNEL SYSTEMS</b><p style="margin-top: 0; margin-bottom: 0">Can be obtained:&nbsp;
+    <p style="margin-top: 0; margin-bottom: 0">
+    <img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp; 
+    A</span>llocating, on the same
+                  transmitting media, a certain number of&nbsp; single channel
+                  systems in High Frequency;<p style="margin-top: 0; margin-bottom: 0">
+<img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+</span>using multi channel systems,
+                  constituted by sets of channels like subsystems.&nbsp;<p style="margin-top: 0; margin-bottom: 0">The first solution is not the better one, because it has many technical
+      and economical difficulties:
+    <p style="margin-top: 0; margin-bottom: 0">
+    <img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+    </span>it needs to generate as many
+                  carriers as the channels number;<p style="margin-top: 0; margin-bottom: 0">
+<img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+</span>it requires the use of as
+                  many filters as the channels number.<span lang="en-us"> </span>
+<p>If the channels to be inserted on the same line are greater 
+    than a certain number, the direct channel modulation is replaced by a system with 
+    successive modulations. </p>
+<p align="center">
+    <b class="BarPagTitle" id="PageTit4">      <span lang="en-us">
+<b>
+      <font size="4">Channel multiplexing</font></b></span></b><img border="0" src="Figure/T601.bmp" width="390" height="318" align="right"></p>
+<p>The technique used nowadays uses basic primary groups. Each
+      group has 12 channels, and each channel has a 4 kHz bandwidth. </p>
+      <p>The primary groups have a bandwidth of 12·4 = 48
+      kHz.</p>
+
+
+      <p style="margin-bottom: 0">The following primary groups have been chosen:</p>
+
+
+      <p align="center"><b>
+      <img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+      </span>type A: 12 ÷ 60 kHz</b></p>
+<p align="center"><b>
+<img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+</span>type B: 60 ÷ 108 kHz</b></p>
+<p align="left">Such a groups can be obtained modulating the single channels 
+with 12 carriers , and filtering the lower side bands&nbsp; <b><span lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </span> <span style="background-color: #FFC617">(see the figure)</span></b>.</p>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+  <p align="left">
+  &nbsp;</p>
+  <p align="left">
+  &nbsp;</p>
+  <p>
+  &nbsp;</p>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+  <p align="left">
+  This method is not convenient for two main reasons:&nbsp;</p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span>12 modulators </b>with 12 different carriers are required;</p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span>12 band-pass channel
+                  filters </b>are required. </p>
+  <p align="left">
+In most of practical applications the <font color="#0000FF">&quot;double modulation&quot;</font> 
+  is used, which allows a considerable saving of circuits</p>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+  <p align="left">
+  &nbsp;</p>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+</blockquote>
+  <p align="left">
+  </p>
+  <p align="left">
+  </p>
+  <p align="left">
+  </p>
+  <p align="left">
+  </p>
+  <p align="left">
+  </p>
+  <p align="center">
+  </p>
+  <p align="center">
+  </p>
+  <p align="center">
+  </p>
+  <p align="center">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+  <a href= "#top">
+  <img border="0" src="../../../../images/top.GIF" align="left" width="68" height="32"></a></font></p>
+  <p align="center">
+  <a name="square"><span lang="en-us"><font color="#008000">
+  <span style="font-weight: 700; font-size: 20pt">Double Modulation</span></font></span></a></p>
+
+  <p align="left">
+<b>Double Modulation </b> presents some advantages with respect to<b> Single
+Modulation:</b> </p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b><span lang="en-us">L</span>ess problems in the practical realization of filters;</p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b><span lang="en-us">S</span>ame carrier frequencies can be used to 
+  translate more than one channel</p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b><span lang="en-us">T</span>he number of different parts in a system is reduced. This takes to an
+                  improvement of reliability and quality and to a reduction of costs. </p>
+  <p align="center">
+
+      <img border="0" src="Figure/T602.bmp" width="414" height="303"></p>
+  <p align="left">
+Using<b> Double Modulation </b> a<b> type-B Basic Group </b> is assembled as follows: </p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b>12 channels are grouped in three 4-channel groups;</p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b><span lang="en-us">T</span>he 4 channels of each group modulate carriers having frequencies of 8,
+                  12, 16, 20 kHz. Lower sidebands are selected through band-pass filters.
+                  Each 4-channel group is thus extending from 8 to 20 kHz;&nbsp; </p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b><span lang="en-us">T</span>he three 4-channel groups modulate now carriers of 84, 100, 116 kHz.
+                  Lower sidebands are still selected and thus the resulting 12-channel FDM
+                  system has a bandwidth extending from 60 to 108 kHz.. </p>
+  <p align="left">
+  Only 7 carriers and band-pass filters are used with Double Modulation,
+      instead of 12 as required by Single Modulation technique.</p>
+  <p align="left">
+
+      Systems with more than 12 channels can be combined starting from the Basic Group. </p>
+  <p align="left">
+  Let's consider for example the formation of a 24-channel group.</p>
+  <p align="center">
+
+      <img border="0" src="Figure/T603.bmp" align="center" width="396" height="101"></p>
+  <p align="left">
+  Two type-B Basic Groups are taken (the type-A Basic Group is not used, since the harmonics of the lowest frequencies fall in the same band
+      12-60 kHz and can cause disturbances). One Group is transmitted without any further modulation; the other Group modulates a 120 kHz carrier,
+      and then the Lower Side<span lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </span>&nbsp;Band is taken for transmission.</p>
+  <p align="left">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+  <a href= "#top">
+  <img border="0" src="../../../../images/top.GIF" align="left" width="68" height="32"></a></font></p>
+  <p align="center">
+  <a name="sawtooth"><span lang="en-us"><font color="#008000">
+  <span style="font-weight: 700; font-size: 20pt">FDM Transmitter &amp; Receiver</span></font></span></a></p>
+    <p style="margin-top: 0; margin-bottom: 0">The 2-wire voice frequency circuit, coming from the subscriber through the
+      exchange, is connected to the</p>
+    <p style="margin-top: 0; margin-bottom: 0">
+    <span style="background-color: #FFC820">&nbsp;hybrid transformer
+      <font color="#0000FF"><b>F </b>.</font></span> It realizes the 2-4 wires transformation in order to allow
+      mono-directional amplifiers and mo-demodulators to be used. </p>
+      <p>The hybrid, terminated on the <span style="background-color: #FFC820">impedance
+      <font color="#0000FF"><b>LA</b></font></span>, connects the voice signal
+      coming from the subscriber to the transmission circuit TX. The signal coming
+      from the remote terminal is sent to the subscriber through the reception circuit RX and the hybrid transformer.</p>
+  <p align="center">
+  <b><font size="5" color="#FF0000">&nbsp;Transmission
+      section (Tx)</font></b></p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b>The attenuator <font color="#0000FF">Att.1</font> regulates the amplitude of the signal coming from
+the hybrid, in order to deliver a correct level to the modulator <font color="#0000FF">Mod.</font>;</p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b><span lang="en-us">T</span>he channel modulator <font color="#0000FF">Mod.</font> is a balanced modulator generating the two
+ sidebands. It receives the voice signal (modulating) and the carrier from the carrier generator
+ <font color="#0000FF">Gen.</font> and delivers the two sidebands with suppressed
+ carrier;</p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b><span lang="en-us">T</span>he band-pass channel filter <font color="#0000FF"> F1</font> selects the desired sideband (upper side
+band in this case) from the modulated signal. The filter output is connected, in parallel with filters from other channels, to the High
+Frequency section <font color="#FF0000">HF</font> of the terminal equipment;</p>
+  <p align="left">
+  the <font color="#FF0000"> HF</font> section gives a basic FDM signal, that may be used to assemble
+ larger groups or may be directly transmitted.</p>
+  <p align="center">
+
+      <img border="0" src="Figure/T604.bmp" width="571" height="200"></p>
+  <p align="center">
+  <b><font size="5" color="#FF0000">&nbsp;Reception
+      section (Rx)</font></b></p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b>The FDM signal comes from the <font color="#FF0000"> HF</font> section, where it was amplified and
+ eventually demodulated. <font color="#FF0000"> HF</font> section includes also an equalizer, which
+ compensates for the frequency response of the transmission link;</p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b><span lang="en-us">Th</span>e first block encountered by signal in the channel modem is the channel filter
+ <font color="#0000FF">F2</font>. This is a band-pass filter allowing the transit of
+ only frequencies of the desired channel;</p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b><span lang="en-us">T</span>he signal from the channel filter is applied to the demodulator <font color="#0000FF">Dem.</font>, which
+delivers the original modulating voice signal. The demodulator uses the same carrier of the modulator;</p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b><span lang="en-us">T</span>he demodulator output is fed to a low-pass filter <font color="#0000FF">F3</font>, that eliminates
+ undesired frequencies produced by the demodulation or transmitted for out-of-band
+ signaling (between 0 ÷ 300 Hz or between 3400 ÷ 4000 Hz);</p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b><span lang="en-us">T</span>he amplifier <font color="#0000FF">Amp.</font> and the attenuator <font color="#0000FF">Att.2</font> adjust the level of the
+ demodulated voice signal;</p>
+  <p align="left">
+  <b><img border="0" src="../T401/FIGURE/B_Red1.GIF" width="10" height="10"><span lang="en-us">&nbsp;&nbsp;&nbsp;
+  </span></b><span lang="en-us">T</span>he signal is applied from the attenuator <font color="#0000FF">Att.2</font> to the
+ hybrid transformer <font color="#0000FF"> F</font> which performs the 4-2 wire transformation. Through the 2-wire circuit
+ the voice signal is connected to the exchange and then to the subscriber.</p>
+  <p align="left">
+  The simple diagram just examined does not include the
+      signaling circuits and compression/expansion circuits (compandor).</p>
+  <p align="left">
+  The signaling is normally obtained using an out of band
+      frequency of 3825 Hz; it is applied in TX to the MOD together with the
+      useful band 300 ÷ 3400 Hz, while in reception it is detected with a
+      filter placed after the demodulator.</p>
+<p align="center">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+  <a href= "#top">
+  <img border="0" src="../../../../images/top.GIF" align="left" width="68" height="32"></a></font></p>
+<p align="center">
+  <a name="rect"><span lang="en-us"><font color="#008000">
+  <span style="font-weight: 700; font-size: 20pt">Compandor</span></font></span></a></p>
+<p align="left">The use of Compandors can produce substantial improvement in the noise and
+      crosstalk performance of a voice channel.<img border="0" src="Figure/T605.bmp" align="right" width="250" height="215"><p align="left">The typical Compandor consists of a volume compressor at the transmitting
+      end of the 4-wire path, before the modulator, and a volume expandor at the
+      receiving end, after the demodulator.<p align="left">The <font color="#FF0000"><b><span lang="en-us">&nbsp;</span>COMPRESSOR</b></font>
+      <span lang="en-us">&nbsp;</span>acts to <span lang="en-us">&nbsp;</span>compress the
+      <span lang="en-us">&nbsp;</span>transmitted volume range, generally
+      by providing gain for low-level signals and less gain, or none, for high-level signals.
+      <p>Low-level <span lang="en-us">&nbsp;</span>phonemes, which 
+      <span lang="en-us">&nbsp;</span>convey <span lang="en-us">&nbsp;</span>most of the actual intelligence, are thus
+      transmitted on the line at higher average level, preventing the line noise from masking them.</p>
+      <p>The receiving volume <font color="#FF0000"><b>EXPANDER</b></font> performs
+      the reverse function so that the dynamic level response is maintained nearly linear over the system.</p>
+      <p>The <b> figure</b> illustrates the level modifications produced by the Compandor.</p>
+      <p><span style="background-color: #FFC617">As a simple demonstration of the
+      functioning consider signals <font color="#0000FF"><b> A</b></font> and <font color="#0000FF"><b> B</b></font> and a
+      line noise level <font color="#0000FF"><b>C</b></font>. </span>
+      <p>The compressor provides high-gain for the low-level signals A and B, and
+      therefore along the line the noise level C is lower than the two signals and does not mask them. At the receiving end the expandor re-establishes
+      the correct dynamic range so that A and B are delivered with their original level. Noise too is subjected to the action of the expandor and is
+      reduced to C'.
+      <p>Signal to noise ratio is thus improved.<p align="left">&nbsp;<p align="center">&nbsp;<p align="center">&nbsp;<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

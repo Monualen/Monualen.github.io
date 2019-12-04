@@ -1,0 +1,299 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>SimTel Fourier synthesis analysis</title>
+</head>
+<body bgcolor="#FFFFFF" alink = blue vlink = blue>
+
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="96%" id="AutoNumber2" bgcolor="#0000FF">
+  <tr>
+    <td width="100%">
+    <p align="center">
+<span lang="en-us"><font color="#FFFFFF"><span style="font-size: 20pt"><b>
+Fourier Synthesis And Analysis</b></span></font></span></td>
+  </tr>
+</table>
+
+  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="96%" id="AutoNumber3" height="97">
+    <tr>
+      <td width="50%" height="20">
+      <p align="left"><span style="font-size: 13pt" lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;
+      </span>
+<b>
+      <span style="font-size: 13pt">&nbsp;<span lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </span></span><a href="#p01"><span style="font-size: 13pt">Frequency Domain 
+      Analysis</span><span style="font-size: 13pt" lang="en-us"> </span></a></b></td>
+      <td width="50%" height="20"><font color="#0000FF" style="font-size: 13pt">
+<b>
+      <span lang="en-us">&nbsp;&nbsp;&nbsp; </span></b>
+      <span lang="en-us">&nbsp;<b class="BarPagTitle" id="PageTit0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>&nbsp;<b class="BarPagTitle" id="PageTit"><a href="#sawtooth">Fourier 
+      series for Saw Tooth</a></b></span></font></td>
+    </tr>
+    <tr>
+      <td width="50%" height="20">
+<b>
+      <span style="font-size: 13pt" lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style="font-size: 13pt">
+      <a href="#square">Fourier Series <span lang="en-us">for</span> Square Wave</a><font color="#0000FF"></a></font></span><span style="font-size: 13pt" lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</span></b></td>
+      <td width="50%" height="20"><font color="#0000FF" style="font-size: 13pt"><span lang="en-us">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span></font><span lang="en-us"><b class="BarPagTitle" id="PageTit3"><font color="#0000FF" style="font-size: 13pt">
+<a href="#rect">      Fourier series for Rectangular pulses</a></font></b></span></td>
+    </tr>
+    <tr>
+      <td width="50%" height="19">
+<b>
+      <span style="font-size: 13pt" lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</span></b><font color="#0000FF" style="font-size: 13pt"><span lang="en-us"><b class="BarPagTitle" id="PageTit2"> 
+      
+<a href = "#triang">Fourier series for Triangular waveform</a></b></span></font></td>
+      <td width="50%" height="19"><span lang="en-us">
+      <b class="BarPagTitle" id="PageTit1">
+      <font color="#0000FF" style="font-size: 13pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></b></span></td>
+    </tr>
+  </table>
+  <p align="center">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+  <a href= "#top">
+  <img border="0" src="../../../../images/top.GIF" align="left" width="68" height="32"></a></font></p>
+  <p align="center">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+  <a name="p01">Frequency 
+  Domain Analysis<span lang="en-us"> for Fourier Series</span> </a></font></p>
+  <p align="justify">
+  The analysis of circuits and systems in the
+      <span style="font-size: 10pt; font-family: Times New Roman">«&nbsp; </span>
+      frequency domain
+      <span style="font-size: 10pt; font-family: Times New Roman">»</span> finds 
+      extensive application in Communication theory.</p>
+      <p align="justify">Spectrum of a signal, harmonics, bandwidth of 
+      amplifiers, filters and transmission channels are concepts widely used.</p>
+      <p style="margin-top: 0px; margin-bottom: 0px" align="justify">Essential 
+      mathematical instruments for that analysis are the &quot;Fourier Series&quot; (for 
+      periodic signals) and the</p>
+      <p style="margin-top: 0px; margin-bottom: 0px" align="justify">&nbsp;<span style="background-color: #ffc617">&quot;Fourier 
+      Transform&quot;</span> <span lang="en-us">&nbsp;</span>(for non periodic signals).</p>
+      <p align="justify">Using these transformations any signal can be 
+      represented as an infinite sum of sinusoidal waveforms of different 
+      frequency.<br>
+      This allows to:</p>
+      <div align="center">
+        <center>
+        <table style="border-collapse: collapse" borderColor="#111111" height="100" cellSpacing="5" borderColorDark="#000000" cellPadding="2" width="393" bgColor="#99ccff" borderColorLight="#000000" border="3">
+          <tr>
+            <td align="middle" width="373" height="91">
+            <div align="left">
+              <table style="border-collapse: collapse" borderColor="#111111" cellSpacing="0" borderColorDark="#000000" cellPadding="0" width="371" borderColorLight="#000000" border="0">
+                <tr>
+                  <td vAlign="top" width="15">
+                  <p align="justify">
+                  &nbsp;</td>
+                  <td vAlign="top" width="3">
+                  <p align="justify"></td>
+                  <td vAlign="top" width="353">
+                  <ul>
+                    <li>
+                  <p align="justify"><b><span lang="en-us">&nbsp;&nbsp; </span>carry out 
+                  analysis on the signal, </b> </li>
+                  </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td vAlign="top" width="15">
+                  <p align="justify">
+                  &nbsp;</td>
+                  <td vAlign="top" width="3">
+                  <p align="justify"></td>
+                  <td vAlign="top" width="353">
+                  <ul>
+                    <li>
+                  <p align="justify" valign="top"><b><span lang="en-us">&nbsp;&nbsp; </span>
+                  introduce the concept of spectrum, </b> </li>
+                  </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td vAlign="top" width="15">
+                  <p align="justify">
+                  &nbsp;</td>
+                  <td vAlign="top" width="3">
+                  <p align="justify"></td>
+                  <td vAlign="top" width="353">
+                  <ul>
+                    <li>
+                  <p style="margin-bottom: 10px" align="justify">
+                  <b>
+                  <span lang="en-us">&nbsp;&nbsp; </span>study linear systems in 
+                  sinusoidal state.</b></li>
+                  </ul>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            </td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <p align="justify">In this lesson the
+      <span style="background-color: #ffc617">Fourier Series</span> will be 
+      examined, that is to say the transformation of periodic signals and their 
+      study in the frequency domain. 
+      <p align="justify">A periodic function of time s(t) having a fundamental 
+      period T can be represented an infinite sum of sinusoidal waveforms 
+      (Fourier Series) : </p>
+  <p align="center">
+      <b>
+      <img height="102" src="For_T101/T101T2F1.gif" width="402" border="0"></b></p>
+  <p align="left">
+  where <font color="#ff0000">a<font size="2"><sub>0</sub></font></font><sub>
+      </sub>is the average value of s(t), <font color="#ff0000">a</font><font color="#ff0000" size="2"><sub>n</sub></font> 
+      and <font color="#ff0000">b</font><font color="#ff0000" size="2"><sub>n</sub></font> 
+      are the coefficients of the series, given by: </p>
+  <p align="left">
+  &nbsp;</p>
+  <p align="center">
+        <img height="41" src="For_T101/T101T2F2.gif" width="110" border="0"><span lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>
+        <img height="41" src="For_T101/T101T2F3.gif" width="222" border="0"><span lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>
+        <img height="41" src="For_T101/T101T2F4.gif" width="221" border="0"></p>
+  <p align="left">
+  The mathematical expressions examined in the previous page point out 
+    that:</p>
+  <p align="left">
+  a periodic signal s(t) of frequency F can be thought as 
+    formed by the sum of a
+    <span style="font-size: 10pt; font-family: Times New Roman">« </span>
+    <span style="font-family: Times New Roman"><font size="3">dc</font></span><span style="font-size: 10pt; font-family: Times New Roman">&nbsp; 
+    »</span> component, plus a sinusoidal signal of frequency F (fundamental), 
+    plus an infinite series of sinusoidal waves whose frequency is a multiple of 
+    F (harmonics)</p>
+  <p align="center"><font color="#ff0000">s(t) = dc component + fundamental 
+  (F) + harmonics (n·F)</font></p>
+<p align="left">frequencies and amplitudes of the components form the 
+    spectrum of the signal, which is a representation in the frequency domain 
+    equivalent to the representation s(t) in the time domain.&nbsp;<br>
+    The calculation of the amplitudes of the spectral components is known as 
+    spectral analysis (or Fourier Analysis) of the signal:</p>
+<p align="center"><font color="#ff0000">s(t)&nbsp;&nbsp;&nbsp;&nbsp;
+      <span style="font-size: 12pt; font-family: Symbol">Þ&nbsp;&nbsp;</span>&nbsp;&nbsp; Fourier 
+      Analysis&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: 12pt; font-family: Symbol">Þ</span>&nbsp;&nbsp;&nbsp;&nbsp; 
+      spectrum</font></p>
+    <p align="left">A graphic example can help to understand what examined in 
+    the previous pages.</p>
+    <p align="left">The sum of a sine signal of frequency F plus a sine 
+    signal of frequency 3·F, both with a proper amplitude, produces the 
+    wave-form shown at right.</p>
+    <p align="left">If another sine signal of frequency 5·F and proper 
+    amplitude is added, a new waveform is obtained.</p>
+    <p align="left">We can deduce that the waveform obtained by the sum of 
+    several sine signal (fundamental + harmonics) will approximate a square 
+    wave, which can thus be seen as consisting of an infinite number of 
+    sinusoidal components with proper amplitude and frequency.&nbsp;<p align="center">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+  <a href= "#top">
+  <img border="0" src="../../../../images/top.GIF" align="left" width="68" height="32"></a></font></p>
+  <p align="center">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+  <span lang="en-us"><a name = "square">Fourier Series for Square Wave</a></span></font></p>
+      <p align="left">Let's consider a square wave s(t) with amplitude A, 
+      period T and frequency F=1/T.</p>
+      <p align="left">The coefficients of the Fourier Series are given by:<p align="center">
+          <img height="41" src="For_T101/T101T5F1.gif" width="136" border="0"><span lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>
+          <img height="41" src="For_T101/T101T5F2.gif" width="248" border="0"><p align="center">
+          <img height="64" src="For_T101/T101T5F3.gif" width="349" border="0"><p align="left">From the calculated values we deduce that the spectrum of 
+    a square wave contains only sinusoidal components of odd order:</p>
+    <p align="center">[frequencies F, 3·F, 5·F, 7·F, 9·F, ....],&nbsp;</p>
+    <p align="left">with amplitudes:</p>
+    <p align="center">
+    <img height="45" src="For_T101/T101T5F4.gif" width="185" border="0"></p>
+      <p align="center">&nbsp;<div align="center">
+  <center>
+  <p>&nbsp;</p>
+  </center>
+</div>
+<p align="left">&nbsp;</p>
+  <p align="center">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+  <a href= "#top">
+  <img border="0" src="../../../../images/top.GIF" align="left" width="68" height="32"></a></font></p>
+  <p align="center">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+  <span lang="en-us"><a name = "triang">Fourier Series for Triangular Wave</a></span></font></p>
+      <p align="left">Let's consider a triangular wave s(t) with amplitude A, 
+      period T and frequency F=1/T.</p>
+      <p align="left">The coefficients of the Fourier Series are given by :
+  <p align="center">
+        <img height="66" src="For_T101/T101T6F1.gif" width="305" border="0"></p>
+    <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="left">From the 
+    calculated values we deduce that the spectrum of a triangular waveform 
+    contains only cosine and sine </p>
+    <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="left">components of 
+    odd order:</p>
+    <p align="center">[frequencies F, 3·F, 5·F, 7·F, 9·F, ....],&nbsp;</p>
+    <p align="left">with amplitudes:</p>
+    <p align="center"><b>
+    <img height="45" src="For_T101/T101T6F2.gif" width="252" border="0"></b></p>
+  <p align="center">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+  <a href= "#top">
+  <img border="0" src="../../../../images/top.GIF" align="left" width="68" height="32"></a></font></p>
+  <p align="center">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+  <span lang="en-us"><a name= "sawtooth">Fourier Series for Saw Tooth&nbsp; Wave</a></span></font></p>
+    <p align="left">Let's consider a sawtooth wave s(t) with amplitude A, 
+    period T and frequency F=1/T.&nbsp;</p>
+    <p align="left">The coefficients of the Fourier Series are given by :&nbsp;
+  <p align="center">
+        <img height="41" src="For_T101/T101T7F1.gif" width="217" border="0"></p>
+    <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="left">rom the 
+    calculated values we deduce that the spectrum of a sawtooth waveform 
+    contains only sine components </p>
+    <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="left">of even odd 
+    order:</p>
+    <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="left">&nbsp;</p>
+    <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="center">[frequencies F, 2·F, 3·F, 4·F, 5·F, ....],&nbsp;</p>
+    <p align="left">with amplitudes:</p>
+  <p align="center"><b>
+    <img height="45" src="For_T101/T101T7F2.gif" width="294" border="0"></b></p>
+<p align="center">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+  <a href= "#top">
+  <img border="0" src="../../../../images/top.GIF" align="left" width="68" height="32"></a></font></p>
+<p align="center">
+  <font style="font-size: 20pt; font-weight: 700" color="#008000">
+<span lang="en-us"><a name="rect">Fourier Series for Rectangular&nbsp; Wave</a></span></font></p>
+    <p align="left">The waveform s(t) consists of a periodic sequence of 
+    rectangular pulses of amplitude&nbsp;<br>
+    A, duration To, period T and frequency F=1/T.</p>
+    <p align="left">The coefficients of the Fourier Series are given by :
+    <p align="center">
+        <img height="26" src="For_T101/T101T8F1.gif" width="350" border="0"></p>
+<p align="center">where the function sinc(x) is defined by:</p>
+<p align="center">
+      <img height="64" src="For_T101/T101T8F2.gif" width="240" border="0"></p>
+    <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px">From the calculated values 
+    we deduce that the spectrum of a sequence of rectangular pulses contains a
+    <span style="font-size: 10pt; font-family: Times New Roman">« </span>dc<span style="font-size: 10pt; font-family: Times New Roman"> 
+    »</span> </p>
+    <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px">component of amplitude A<sub>o</sub>=A·F·T<sub>o</sub> 
+    , plus cosine and sine components of even and odd order [frequencies F, 2·F, 
+    3·F, ..] </p>
+    <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px">with amplitude A<sub>o</sub>·sinc(n·F·T<sub>o</sub>) 
+    [ Ao·sinc(F·T<sub>o</sub>), Ao·sinc(2·F·T<sub>o</sub>), Ao·sinc(3·F·T<sub>o</sub>), 
+    ..].&nbsp;<p align="left">The spectral representations of the figure correspond to 
+    periodic pulse trains with ratio T<sub>o</sub>/T=1/10 and T<sub>o</sub>/T=1/4.<br>
+    The amplitudes of the spectral lines are plotted in absolute value.&nbsp;</p>
+<p>The distance between two lines depends on F, while the 
+    distance between the zeroes of the envelope depends on T/T<sub>o</sub>,
+    </p>
+    <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px">that is on the pulse 
+    width.
+
+</body>
+
+</html>
